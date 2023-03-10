@@ -1,5 +1,3 @@
-我有一个开源 npm 包发布，名字为 ti-tick，作用是管理 js 的定时任务，来优化频繁使用 setInterval 带来的前端性能问题。请帮我写一下 readme.md
-
 # ti-tick
 
 [![npm version](https://badge.fury.io/js/ti-tick.svg)](https://badge.fury.io/js/ti-tick)
