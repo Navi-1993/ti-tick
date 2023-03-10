@@ -1,6 +1,6 @@
 {
   "name": "ti-tick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "高性能定时任务管理器",
   "main": "dist/ticker.js",
   "module": "dist/ticker.esm.js",
