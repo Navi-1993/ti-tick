@@ -7,6 +7,8 @@
 
 ti-tick 是一个开源的 npm 包，用于管理 JavaScript 的定时任务，以优化频繁使用 setInterval 带来的前端性能问题。
 
+[定时任务的管理与优化](https://github.com/Navi-1993/what-should-i-know/blob/master/front-end/Performance%20Optimization/Optimization%20of%20Scheduled%20Tasks.md)
+
 ## 安装
 
 你可以使用 npm 安装 ti-tick：
