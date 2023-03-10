@@ -47,9 +47,12 @@ ticker.run()
 const fn = ()=> console.log('持续执行的定时任务')
 const event = {
     fn,
-    sleep: options?.sleep,
+    leading: true, // 当添加定时任务时，会立即 fn 1 次。
+    sleep: 6000, // 等待 6 秒后再开始持续执行
   }
 ticker.addTickEvent(event, 1000)
+await delay(10000) // 等待 10 秒
+ticker.removeTickEvent(evnet) // 移除定时任务
 ```
 
 ### 封装为 hooks 使用
